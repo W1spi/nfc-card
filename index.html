@@ -12,23 +12,25 @@
       color: #fff;
       font-family: 'Courier New', monospace;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
     }
     .card {
       max-width: 600px;
       padding: 30px;
-      border: 1px solid #555;
-      border-radius: 8px;
       background-color: #111;
-      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+      border: 1px solid #444;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.03);
     }
     .line {
-      margin: 12px 0;
+      margin: 10px 0;
       font-size: 16px;
       letter-spacing: 1px;
+    }
+    .bold {
+      font-weight: bold;
     }
     .section {
       margin-top: 30px;
@@ -36,12 +38,19 @@
       padding-top: 20px;
       text-align: center;
     }
-    .bold {
-      font-weight: bold;
+    .link a {
+      color: #57aaff;
+      text-decoration: none;
+    }
+    .link a:hover {
+      text-decoration: underline;
     }
     .small {
       font-size: 14px;
       color: #aaa;
+    }
+    .project {
+      margin-top: 8px;
     }
   </style>
 </head>
@@ -59,9 +68,12 @@
     </div>
 
     <div class="section small">
-      <div>@IvanStepanishchev</div>
-      <div>github.com/ivstepanishchev</div>
-      <div>Project: OmniJson · OmniQuery · NLimit Game</div>
+      <div class="line link">
+        <a href="https://t.me/IvanStepanishchev" target="_blank">@IvanStepanishchev</a>
+      </div>
+      <div class="line">github.com/ivstepanishchev</div>
+      <div class="line">Разработчик C# · QA инженер · Unity разработчик</div>
+      <div class="line project">Проекты: OmniJson · OmniQuery · NLimit Game</div>
     </div>
   </div>
 </body>
