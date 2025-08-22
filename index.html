@@ -16,6 +16,16 @@
       align-items: center;
       min-height: 100vh;
     }
+    .wrapper {
+      text-align: center;
+    }
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #57aaff;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+    }
     .card {
       max-width: 600px;
       padding: 30px;
@@ -23,6 +33,7 @@
       border: 1px solid #444;
       border-radius: 8px;
       box-shadow: 0 0 20px rgba(255,255,255,0.03);
+      margin: auto;
     }
     .line {
       margin: 10px 0;
@@ -55,25 +66,30 @@
   </style>
 </head>
 <body>
-  <div class="card">
-    <div class="line bold">ACCESS INTERFACE</div>
-    <div class="line">NFC . v1.0</div>
-    <div class="line">ID: N-LIMIT_001</div>
-    <div class="line bold">LEVEL: LOCAL SYSTEMS ONLY</div>
+  <div class="wrapper">
+    <div class="title">NLimit</div>
+    <div class="card">
+      <div class="line bold">ACCESS INTERFACE</div>
+      <div class="line">NFC . v1.0</div>
+      <div class="line">ID: N-LIMIT_001</div>
+      <div class="line bold">LEVEL: LOCAL SYSTEMS ONLY</div>
 
-    <div class="section">
-      <div class="line bold">NO AUTHORITY</div>
-      <div class="line bold">NO PERMISSION</div>
-      <div class="line bold">NO LIMITS</div>
-    </div>
-
-    <div class="section small">
-      <div class="line link">
-        <a href="https://t.me/IvanStepanishchev" target="_blank">@IvanStepanishchev</a>
+      <div class="section">
+        <div class="line bold">NO AUTHORITY</div>
+        <div class="line bold">NO PERMISSION</div>
+        <div class="line bold">NO LIMITS</div>
       </div>
-      <div class="line">github.com/ivstepanishchev</div>
-      <div class="line">Разработчик C# · QA инженер · Unity разработчик</div>
-      <div class="line project">Проекты: OmniJson · OmniQuery · NLimit Game</div>
+
+      <div class="section small">
+        <div class="line link">
+          <a href="https://t.me/IvanStepanishchev" target="_blank">@IvanStepanishchev</a>
+        </div>
+        <div class="line link">
+          <a href="https://github.com/ivstepanishchev" target="_blank">github.com/ivstepanishchev</a>
+        </div>
+        <div class="line">Разработчик C# · QA инженер · Unity разработчик</div>
+        <div class="line project">Проекты: OmniJson · OmniQuery · NLimit Game</div>
+      </div>
     </div>
   </div>
 </body>
